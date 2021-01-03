@@ -5,7 +5,7 @@ https://mihneac.com/saml/simplesaml_postfixadmin
 
 
 authsources config:
-<code php>
+```php
   'postfixadmin-sql' => [
      'postfixadmin:SQL',
      'dsn' => 'mysql:host=localhost;port=3306;dbname=simplesaml',     
@@ -13,7 +13,7 @@ authsources config:
      'password' => 'yourpassword',    
      'append_domain' => 'yourdomain.com',    
 ],
-</code>
+```
 Options:
 
  * dsn - mysql/pgsql connect url
